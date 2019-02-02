@@ -1,2 +1,2 @@
 # new-git
-My git
+Тестовые гиты (python)
