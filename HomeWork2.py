@@ -7,14 +7,16 @@ list = [3, 4, 3.4, 34, 23, 5]
 list.sort()
 print(list)
 
+# Создать словарь из 5 пар: int -> str, например {6: '6'}, вывести его в консоль попарно
 
 print("Создать словарь из 5 пар: int -> str, например {6: '6'}, вывести его в консоль попарно")
-dict = {1:'1',
+dictionary = {1:'1',
         2:'2',
         3:'3',
         4:'4',
         5:'5',
-        6:'6', }
+        6:'6',
+        }
 
-for key, value in dict.item():
+for key, value in dictionary.items():
     print (key, value)
